@@ -7,6 +7,7 @@ standard_set_uris = {
     'stx': 'https://api.scryfall.com/cards/search?order=set&q=e%3Astx&unique=prints',
     'afr': 'https://api.scryfall.com/cards/search?order=set&q=e%3Aafr&unique=prints',
     'mid': 'https://api.scryfall.com/cards/search?order=set&q=e%3Amid&unique=prints',
+    'vow': 'https://api.scryfall.com/cards/search?order=set&q=e%3Avow&unique=prints'
 }
 
 # set_uri = standard_set_uris['znr']
@@ -19,6 +20,8 @@ standard_set_uris = {
 
 # set_json_three = requests.get(set_json_two['next_page']).json()
 # cards_three = set_json_three['data']
+
+# TODO: make list of keys for each standard set
 
 our_keys = ['name', 'uri', 'image_uris', 'mana_cost', 'cmc', 'type_line', 'oracle_text', 'colors', 'color_identity', 'keywords', 'set', 'set_name', 'rarity', 'flavor_text', 'artist']
 

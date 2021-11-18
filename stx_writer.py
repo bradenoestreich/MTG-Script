@@ -3,14 +3,13 @@ import csv
 from main import standard_set_uris
 from main import our_keys
 
-znr_cards = requests.get(standard_set_uris['znr']).json()['data']
+stx_cards = requests.get(standard_set_uris['stx']).json()['data']
 
-
-with open('znr.csv', 'w', newline='\n') as csvfile:
+with open('stx.csv', 'w', newline='\n') as csvfile:
 
     card_writer = csv.writer(csvfile, delimiter=',')
 
-    for index, card in enumerate(znr_cards):
+    for index, card in enumerate(stx_cards):
 
         set_number = index + 1
     
@@ -20,8 +19,6 @@ with open('znr.csv', 'w', newline='\n') as csvfile:
 
             if key == 'image_uris':
                 current_card.append(card[key]['normal'])
-            elif key == 'oracle_text':
-                current_card.append(str(card[key]).replace('\n', ' '))
             else:
                 if key in card:
                     current_card.append(card[key])
