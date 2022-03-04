@@ -2,15 +2,16 @@ import requests
 import csv
 
 standard_set_uris = {
-    'znr': 'https://api.scryfall.com/cards/search?order=set&q=e%3Aznr&unique=prints',
-    'khm': 'https://api.scryfall.com/cards/search?order=set&q=e%3Akhm&unique=prints',
-    'stx': 'https://api.scryfall.com/cards/search?order=set&q=e%3Astx&unique=prints',
+    # 'znr': 'https://api.scryfall.com/cards/search?order=set&q=e%3Aznr&unique=prints',
+    # 'khm': 'https://api.scryfall.com/cards/search?order=set&q=e%3Akhm&unique=prints',
+    # 'stx': 'https://api.scryfall.com/cards/search?order=set&q=e%3Astx&unique=prints',
     'afr': 'https://api.scryfall.com/cards/search?order=set&q=e%3Aafr&unique=prints',
-    'mid': 'https://api.scryfall.com/cards/search?order=set&q=e%3Amid&unique=prints',
-    'vow': 'https://api.scryfall.com/cards/search?order=set&q=e%3Avow&unique=prints'
+    # 'mid': 'https://api.scryfall.com/cards/search?order=set&q=e%3Amid&unique=prints',
+    # 'vow': 'https://api.scryfall.com/cards/search?order=set&q=e%3Avow&unique=prints',
+    # 'neo': 'https://api.scryfall.com/cards/search?order=set&q=e%3Avow&unique=prints'
 }
 
-# set_uri = standard_set_uris['znr']
+# set_uri = standard_set_uris['afr']
 
 # set_json = requests.get(set_uri).json()
 # cards = set_json['data']
@@ -23,7 +24,11 @@ standard_set_uris = {
 
 # TODO: make list of keys for each standard set
 
-our_keys = ['name', 'uri', 'image_uris', 'mana_cost', 'cmc', 'type_line', 'oracle_text', 'colors', 'color_identity', 'keywords', 'set', 'set_name', 'rarity', 'flavor_text', 'artist']
+# our_keys = ['name', 'uri', 'image_uris', 'mana_cost', 'cmc', 'type_line', 'oracle_text', 'colors', 'color_identity', 'keywords', 'set', 'set_name', 'rarity', 'flavor_text', 'artist']
+
+new_keys = ['name', 'uri', 'image_uris', 'mana_cost', 'cmc', 'type_line', 'colors', 'color_identity', 'foil', 'nonfoil' 'set', 'set_name', 'rarity', 'artist', 'prices']
+
+# new_keys = ['name', 'uri']
 
 # with open('cards.csv', 'w', newline='\n') as csvfile:
 
