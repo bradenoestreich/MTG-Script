@@ -12,7 +12,7 @@ Python script(s) which will:
 
 After we have a CSV file with all of the card data we care about we can create another script that will load all of the records into a Database that can be used by the resulting web application.
 
-## Todo
+## TODO
 
 - [x] Create a virtual environment for this project
 - [x] Make HTTP requests using the requests library
@@ -29,6 +29,6 @@ You will need to create a new Python virtual environment. Load the dependencies 
 
 This can be done from the terminal by activating your python virtual environment and then from the terminal running `pip3 install -r requirements.txt`.
 
-Once your environment exists, is activated, and has the necessary 3rd party libraires you can run this example with `python3 main.py`.
+Once your environment exists, is activated, and has the necessary 3rd party libraries you can run this example with `python3 main.py`.
 
 The script will fire off many HTTP requests (using the requests library) to the scryfall API, parse the resulting JSON, extract the necessary information, and then write the data to a CSV file called `cards.csv`.
