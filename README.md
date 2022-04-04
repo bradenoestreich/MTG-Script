@@ -17,11 +17,11 @@ After we have a CSV file with all of the card data we care about we can create a
 - [x] Create a virtual environment for this project
 - [x] Make HTTP requests using the requests library
 - [x] Determine MTG sets we care about
-- [x] Explore small sample of card data from each set
+- [x] Explore small sample of card data from the set
 - [x] Determine card data we care about
 - [x] Use the Python csv module to write data to a CSV file
 - [x] POC: extract data from small sample of cards and write them to CSV file
-- [ ] MVP: full script that requests all cards from all sets, extracts data from each card in each set, and then writes it to CSV
+- [ ] MVP: full script that requests all cards from the set, extracts data from each card in the set, and then writes it to CSV
 
 ## Running This Code
 
