@@ -16,4 +16,4 @@ standard_set_uris = [
 
 # TODO: make list of keys for each standard set
 
-card_keys = ['name', 'uri', 'image_uris', 'mana_cost', 'cmc', 'type_line', 'colors', 'color_identity', 'foil', 'nonfoil' 'set', 'set_name', 'rarity', 'artist', 'prices']
+card_keys = ['name', 'uri', 'image_uris', 'mana_cost', 'cmc', 'type_line', 'colors', 'color_identity', 'foil', 'nonfoil', 'set', 'set_name', 'rarity', 'artist', 'prices']
