@@ -1,4 +1,4 @@
-# MTG-Application
+# MTG-Script
 
 This repository contains the code necessary to gather the data needed for a price-tracking and data visualization web app for Magic: The Gathering.
 
