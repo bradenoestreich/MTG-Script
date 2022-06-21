@@ -20,6 +20,8 @@ This repository contains the code necessary to gather the data needed for a pric
 - [x] Determine desired card data using keys found in JSON
 - [x] Use the Python CSV module to write data to a CSV file
 - [x] Full script that requests all cards from the set, extracts data from each card in the set, and then writes it to CSV
+- [ ] Repackage conditionals used in writer file as "checkpoint functions," and then import those modules when necessary
+- [ ] Build tests to maintain current code integrity and work towards TDD future
 
 
 ## Running This Code
