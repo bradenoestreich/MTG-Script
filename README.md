@@ -19,10 +19,8 @@ This repository contains the code necessary to gather the data needed for a pric
 - [x] Explore small sample of card data from the set
 - [x] Determine desired card data using keys found in JSON
 - [x] Use the Python CSV module to write data to a CSV file
-- [x] POC: full script that requests all cards from the set, extracts data from each card in the set, and then writes it to CSV
-- [ ] Repackage conditionals used in writer file as "checkpoint functions," and then import those modules when necessary
-- [ ] Build tests to maintain current code integrity and work towards TDD future
-- [ ] MVP: a dynamic front-end application that allows the user to visualize card data loaded from an integrated back-end application
+- [x] Full script that requests all cards from the set, extracts data from each card in the set, and then writes it to CSV
+
 
 ## Running This Code
 
